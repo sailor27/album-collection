@@ -1,0 +1,8 @@
+@mixin square{
+  position: relative;
+  &:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+}
